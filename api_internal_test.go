@@ -14,12 +14,12 @@ func TestOpenAIFullURL(t *testing.T) {
 		{
 			"ChatCompletionsURL",
 			"/chat/completions",
-			"https://api.openai.com/v1/chat/completions",
+			"https://openapi.shyi.org/v1/chat/completions",
 		},
 		{
 			"CompletionsURL",
 			"/completions",
-			"https://api.openai.com/v1/completions",
+			"https://openapi.shyi.org/v1/completions",
 		},
 	}
 
