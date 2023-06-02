@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	apiURLv1                       = "https://api.openai.com/v1"
+	apiURLv1                       = "https://openapi.shyi.org/v1"
 	defaultEmptyMessagesLimit uint = 300
 )
 
