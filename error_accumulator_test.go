@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"testing"
 
-	utils "github.com/sashabaranov/go-openai/internal"
-	"github.com/sashabaranov/go-openai/internal/test"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	utils "github.com/zhai0122/go-openai/internal"
+	"github.com/zhai0122/go-openai/internal/test"
+	"github.com/zhai0122/go-openai/internal/test/checks"
 )
 
 var (

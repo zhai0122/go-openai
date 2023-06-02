@@ -5,7 +5,7 @@ import (
 	"context"
 	"net/http"
 
-	utils "github.com/sashabaranov/go-openai/internal"
+	utils "github.com/zhai0122/go-openai/internal"
 )
 
 type ChatCompletionStreamChoiceDelta struct {
