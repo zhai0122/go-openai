@@ -1,7 +1,7 @@
 # Go OpenAI
-[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/zhai0122/go-openai)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zhai0122/go-openai)](https://goreportcard.com/report/github.com/zhai0122/go-openai)
-[![codecov](https://codecov.io/gh/zhai0122/go-openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/zhai0122/go-openai)
+[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/zhai0122/goopenai)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zhai0122/goopenai)](https://goreportcard.com/report/github.com/zhai0122/goopenai)
+[![codecov](https://codecov.io/gh/zhai0122/goopenai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/zhai0122/goopenai)
 
 > **Note**: the repository was recently renamed from `go-gpt3` to `go-openai`
 
@@ -14,7 +14,7 @@ This library provides Go clients for [OpenAI API](https://platform.openai.com/).
 
 Installation:
 ```
-go get github.com/zhai0122/go-openai
+go get github.com/zhai0122/goopenai
 ```
 
 
@@ -26,7 +26,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/zhai0122/go-openai"
+	openai "github.com/zhai0122/goopenai"
 )
 
 func main() {
@@ -69,7 +69,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	openai "github.com/zhai0122/go-openai"
+	openai "github.com/zhai0122/goopenai"
 )
 
 func main() {
@@ -122,7 +122,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/zhai0122/go-openai"
+	openai "github.com/zhai0122/goopenai"
 )
 
 func main() {
@@ -155,7 +155,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	openai "github.com/zhai0122/go-openai"
+	openai "github.com/zhai0122/goopenai"
 )
 
 func main() {
@@ -204,7 +204,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/zhai0122/go-openai"
+	openai "github.com/zhai0122/goopenai"
 )
 
 func main() {
@@ -236,7 +236,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	openai "github.com/zhai0122/go-openai"
+	openai "github.com/zhai0122/goopenai"
 	"image/png"
 	"os"
 )
@@ -324,7 +324,7 @@ config.HTTPClient = &http.Client{
 c := openai.NewClientWithConfig(config)
 ```
 
-See also: https://pkg.go.dev/github.com/zhai0122/go-openai#ClientConfig
+See also: https://pkg.go.dev/github.com/zhai0122/goopenai#ClientConfig
 </details>
 
 <details>
@@ -340,7 +340,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zhai0122/go-openai"
+	"github.com/zhai0122/goopenai"
 )
 
 func main() {

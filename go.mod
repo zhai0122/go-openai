@@ -1,3 +1,3 @@
-module github.com/zhai0122/go-openai
+module github.com/zhai0122/goopenai
 
 go 1.18
